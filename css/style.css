@@ -223,3 +223,12 @@ position: fixed;
         height: 400px;
         background-color: grey;
 }
+.enq {
+	position:absolute;
+	left:650px;
+	top:100px;
+	
+}
+.enq a {
+  font-family: 'Raleway', sans-serif;s
+}
