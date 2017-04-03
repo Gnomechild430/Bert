@@ -9,7 +9,7 @@
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 150) {
+  if (y > 650) {
     $('.header').fadeIn();
   } else {
     $('.header').fadeOut();
@@ -56,7 +56,7 @@ function jumpScroll() {
         <h1> Welcome</h1>
       </div>
     </div>
-  </div>s
+  </div>
     
   <div class="supporting">
     <div class="container">
@@ -127,9 +127,9 @@ function jumpScroll() {
 	
 <script>
       function initMap() {
-        var uluru = {lat: 52.7411, lng: -1.8865};
+        var uluru = {lat: 52.817398, lng: -2.0828988};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
+          zoom: 15,
           center: uluru
         });
         var marker = new google.maps.Marker({
