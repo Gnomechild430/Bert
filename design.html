@@ -5,10 +5,35 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript">  
-    
-        
-    </script>
+    <script type="text/javascript">
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 150) {
+    $('.header').fadeIn();
+  } else {
+    $('.header').fadeOut();
+  }
+});
+</script>
+
+
+
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYKQs-3J22d6qODAImyGRSDzMwhJSv-ww&callback=initMap"
+  type="text/javascript"></script>
+
+<script>
+function jumpScroll() {
+    window.scroll(0,3000);
+}
+
+
+</script>
+
+
+
+
     <title>Sandwich Shop</title>
   </head>
 <body>
@@ -68,7 +93,7 @@
         <img src="images/phoneimg.gif" alt="Phone">
         <h2>Contact</h2>
           <p>Any queries? Get in touch.</p>
-        <a class="btn-default" href="#s5">Learn more</a>
+        <a class="btn-default" href = "javascript:jumpScroll()" >Learn more</a>
       </div>
         
 
@@ -96,7 +121,22 @@
   </div>
   <div id="s4" class="wherecontainer"> 
     <div class="placeholder">
-      <img src="images/wheretext.png" alt="text">
+<h3>Where to find us</h3>
+    <div id="map"></div>
+<script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
     </div>
     <a class="btn-return" href="#r1">Back to top.</a>
   </div>
@@ -109,7 +149,7 @@
     
   <div class="footer">
     <div class="container">
-      <p>&copy; RG 2017</p>
+      <p>&copy; GATE 2017</p>
     </div>
   </div>
 
