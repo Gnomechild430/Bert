@@ -1,3 +1,4 @@
+
 <!DOCTYPE html >
 <html>
   <head>
@@ -6,7 +7,6 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript">
-
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 650) {
@@ -27,8 +27,6 @@ $(document).scroll(function() {
 function jumpScroll() {
     window.scroll(0,3000);
 }
-
-
 </script>
 
 
@@ -142,10 +140,17 @@ function jumpScroll() {
 	<a class="btn-return" href="#r1">Back to top.</a>
  </div>
   <div id="s5" class="contactcontainer"> 
+<form class="enq" action="https://formspree.io/adamtate94@email.com" method="post">
+    <a> Your name </a> <br>
+    <input type="text" name="name"><br>
+    <a> Your e-mail </a> <br>
+    <input type="text" name="_replyto"><br>
+    <a> Message </a> <br>
+    <textarea name="message"></textarea><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
     <div class="placeholder">
-      <img src="images/contacttext.png" alt="text">
-    </div>
-    <a class="btn-return" href="#r1">Back to top.</a>
   </div>
     
   <div class="footer">
