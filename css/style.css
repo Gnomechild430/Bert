@@ -12,6 +12,7 @@
   top:940px;
   height:940px;
   width:1024px;
+    border: 1px solid #333;
 }
 
 .placeholder img {
@@ -21,10 +22,12 @@ position:absolute;
 }
 
 .menucontainer {
-  position:relative;
+  position:absolute;
   top:1880px;
   height:940px;
   width:1024px;
+   border: 1px solid #333;
+
 }
 
 .cateringcontainer {
@@ -32,6 +35,7 @@ position:absolute;
     top: 2820px;
     height:940px;
     width:1024px;
+	  border: 1px solid #333;
 }
 
 .wherecontainer {
@@ -39,6 +43,7 @@ position:absolute;
   top:3760px;
   height:940px;
   width:1024px;
+    border: 1px solid #333;
 }
 
 .contactcontainer {
@@ -46,6 +51,7 @@ position:absolute;
   top:4700px;
   height:940px;
   width:1024px;
+    border: 1px solid #333;
 }
 
 .container {
@@ -157,6 +163,8 @@ background-color: #444;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
+  top:790px;
+  
 }
 
 .supporting {
