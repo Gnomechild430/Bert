@@ -1,4 +1,4 @@
- html, body {
+html, body {
   position: relative;
   margin: 0 auto;
   padding-left: 00px;
@@ -217,11 +217,12 @@ position: fixed;
 }
 
 
-#map {
-
- width: 100%;
+#map {  position:absolute;
+        left:40px;
+        width: 600px;
         height: 400px;
         background-color: grey;
+		top:100px;
 }
 .enq {
 	position:absolute;
@@ -231,4 +232,18 @@ position: fixed;
 }
 .enq a {
   font-family: 'Raleway', sans-serif;s
+}
+
+.wherecontainer h3 {
+	position:absolute;
+	left:40px;
+	  font-family: 'Raleway', sans-serif;  
+}
+
+.wherecontainer address {
+		  font-family: 'Raleway', sans-serif;  
+		  left:500px;
+		  position:relative;
+		  top: 100px;
+		  left: 675px;
 }
