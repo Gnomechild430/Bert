@@ -5,7 +5,9 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript">
+    
+	
+	<script type="text/javascript">
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 650) {
@@ -19,10 +21,7 @@ $(document).scroll(function() {
 
 
 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYKQs-3J22d6qODAImyGRSDzMwhJSv-ww&callback=initMap"
-  type="text/javascript">
 
-</script>
 
 <script>
 function jumpScroll() {
@@ -133,6 +132,9 @@ function jumpScroll() {
      <p class = "smalltext" >Praesent in blandit magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit iaculis tempor. Curabitur rhoncus nulla ac pretium vehicula. Sed porta fringilla accumsan. In aliquet ipsum a tortor posuere fermentum. Aenean porta justo massa, eget suscipit ante viverra sit amet. Sed accumsan massa eu ipsum convallis venenatis in nec justo. Etiam blandit in nunc sit amet eleifend. Donec bibendum sem arcu, eu congue quam tempor id. Ut nec eros sed neque cursus elementum ut id diam. In </p>
    <a class="btn-return" href="#tst">Back to top.</a> 
   </div>
+  
+  
+  
   <div id="s4" class="wherecontainer"> 
   <a class="btn-return" href="#tst">Back to top.</a>
     <div class="placeholder">
@@ -144,11 +146,11 @@ ST18 0ER  <br>
 <br>
 Phone: 01785 224747
 </address>
-    <div id="map"></div>
+    <div id="map">
 	
 <script>
       function initMap() {
-        var uluru = {lat: 52.817398, lng: -2.0828988};
+        var uluru = {lat: 52.8174104, lng: -2.0827787};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
           center: uluru
@@ -159,6 +161,9 @@ Phone: 01785 224747
         });
       }
     </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-E8O4IHRR6AMhdFc7nGhjfAkQWaLDZpE&callback=initMap"
+  type="text/javascript"></script>
+	</div>
     </div>
  </div>
   
