@@ -1,24 +1,40 @@
 html, body {
-  position: relative;
-  margin: 0 auto;
-  padding-left: 00px;
-  width: 1024px;
+   position: relative;
+   margin: 0 auto;
+   padding-left: 00px;
+   width: 1024px;
 
 
 }
 
 .aboutcontainer {
-  position:absolute;
-  top:940px;
-  height:940px;
-  width:1024px;
+    position: absolute;
+    top: 940px;
+    height: 740px;
+    width: 1024px;
     border: 1px solid #333;
+}
+
+.abouttext {
+    float:left;
+    width: 50%;
+    height: 60%;
+    margin-left: 20px; 
+    clear: right;
+    display: block;
+}
+
+.aboutimage {
+    display: block;
+    float: right;
+    width: 42%;
+    margin: 10 20 0 0;
 }
 
 .placeholder img {
     width: 1024px;
     height: 500px;
-position:absolute;
+    position:absolute;
 }
 
 .menucontainer {
@@ -35,23 +51,44 @@ position:absolute;
     top: 2820px;
     height:940px;
     width:1024px;
-	  border: 1px solid #333;
+    border: 1px solid #333;
 }
 
 .wherecontainer {
-  position:absolute;
-  top:3760px;
-  height:940px;
-  width:1024px;
+    position:absolute;
+    top:3760px;
+    height:940px;
+    width:1024px;
     border: 1px solid #333;
 }
 
 .contactcontainer {
-  position:absolute;
-  top:4700px;
-  height:940px;
-  width:1024px;
+    position:absolute;
+    top:4700px;
+    height:940px;
+    width:1024px;
     border: 1px solid #333;
+}
+
+.contacthead {
+    height: 50px;
+    width: 100%;
+}
+
+.contacttext {
+    float:left;
+    width: 50%;
+    height: 60%;
+    margin-left: 20px; 
+    clear: right;
+    display: block;
+}
+
+.form {
+    display: block;
+    position: relative;
+    width: 35%;
+    height: 80%;
 }
 
 .container {
@@ -64,10 +101,6 @@ position:absolute;
   background: url(http://www.astoria-luzern.ch/_thumbnails_/938_1_02_coffeeshop01.jpg) no-repeat center center;
   background-size: cover;
   height: 450px;
-
-
-
-
 }
 
 .header {
@@ -238,48 +271,37 @@ position: fixed;
 .wherecontainer h3 {
 	position:absolute;
 	left:40px;
-	  font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;  
 }
 
 .wherecontainer address {
-		  font-family: 'Raleway', sans-serif;  
-		  left:500px;
-		  position:relative;
-		  top: 100px;
-		  left: 675px;
+    font-family: 'Raleway', sans-serif;  
+    left:500px;
+    position:relative;
+    top: 100px;
+    left: 675px;
 }
-
-
-.contactcontainer h1 {
-position:relative;
-top:80px;
-left:30px;
-font-family: 'Raleway', sans-serif;  
-font-size:25px;
-
-}
-
 
 .contactcontainer textarea {
-height:100px;
-width:235px;
-
+    height:200px;
+    width:300px;
+    resize: none;
 }
-#TA_socialButtonIcon586
-{
-position:absolute;
+
+#TA_socialButtonIcon586 {
+    display: block;
+    position: relative;
     top: 0px;
     right: 0px;
-
+    float: left; 
 }
 
-
 .smalltext {
-font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif;  
 }
 
 .headers11 {
-font-family: 'Raleway', sans-serif;  
-text-align:center;
-
+    margin: 10 auto;
+    font-family: 'Raleway', sans-serif;  
+    text-align:center;
 }
