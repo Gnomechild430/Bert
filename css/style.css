@@ -126,7 +126,9 @@ h2 {
   width: 1024px;
   text-align: center;
   text-decoration: none;
+display:none;
 }
+
 
 .topnav {
     width:100%;
