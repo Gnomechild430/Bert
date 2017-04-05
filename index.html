@@ -7,6 +7,30 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
 	
+	
+<script type="text/javascript">
+var timedelay = 1;
+function HideTheMouse()
+{
+if(timedelay == 5)
+{
+$('.header').fadeOut();
+timedelay = 1;
+}
+timedelay = timedelay+1;
+}
+ 
+$(document).mousemove(function() {
+$('.header').fadeIn();
+timedelay = 1;
+clearInterval(_delay);
+_delay = setInterval(HideTheMouse, 500);
+});
+
+_delay = setInterval(HideTheMouse, 500)
+</script>
+
+	
 <script type="text/javascript">
 	$(document).scroll(function() {
   var y = $(this).scrollTop();
@@ -19,6 +43,7 @@
 });
 	
 </script>
+
 
 
 <script>
