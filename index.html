@@ -6,16 +6,20 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
-	<script type="text/javascript">
-$(document).scroll(function() {
+	
+<script type="text/javascript">
+	$(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 650) {
+ if (y > 650) {
     $('.header').fadeIn();
-  } else {
+  } 
+  else {
     $('.header').fadeOut();
   }
 });
+	
 </script>
+
 
 <script>
 function jumpScroll() {
@@ -25,7 +29,19 @@ function jumpScroll() {
 
     <title>Tasty Pantry</title>
   </head>
-<body>
+
+
+<body onload = "SetOpacZero()">
+<script type="text/javascript">
+function SetOpacZero()
+{
+$("header").hide();
+	
+}
+
+
+</script>
+
 
   <div class="header">
     <div  class="topnav">
