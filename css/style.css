@@ -301,13 +301,23 @@ textarea {
 }
 
 #TA_socialButtonIcon586 {
-    display: block;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    float: left;
-    padding-left: 75px;
+
+    position: absolute;
+	left:79px;
+	bottom:120px;
 }
+
+#fblogo {
+	
+	bottom: 120px;
+    left: 15px;
+    position: absolute;
+  
+	
+}
+
+
+
 
 .smalltext {
     font-family: 'Raleway', sans-serif;  
