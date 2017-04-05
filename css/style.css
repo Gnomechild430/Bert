@@ -10,10 +10,9 @@ h2 {
 
 .aboutcontainer {
     position: absolute;
-    top: 990px;
-    height: 640px;
+    top: 870px;
+    height: 660px;
     width: 1024px;
-    border: 1px solid #333;
 }
 
 .abouttext {
@@ -40,27 +39,24 @@ h2 {
 
 .menucontainer {
   position:absolute;
-  top:1630px;
-  height:640px;
+  top:1540px;
+  height:660px;
   width:1024px;
-   border: 1px solid #333;
 
 }
 
 .cateringcontainer {
     position: absolute;
-    top: 2270px;
-    height:640px;
+    top: 2200px;
+    height:660px;
     width:1024px;
-    border: 1px solid #333;
 }
 
 .wherecontainer {
     position:absolute;
-    top:2910px;
-    height:640px;
+    top:2860px;
+    height:660px;
     width:1024px;
-    border: 1px solid #333;
 }
 
 .address {
@@ -72,10 +68,9 @@ h2 {
 
 .contactcontainer {
     position:absolute;
-    top:3550px;
-    height:640px;
+    top:3520px;
+    height:660px;
     width:1024px;
-    border: 1px solid #333;
 }
 
 .contacthead {
@@ -113,6 +108,13 @@ h2 {
   width: 100%;
 }
 
+.separator {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-left:15px;
+}
+
 .bigpicture {
   background: url(http://www.astoria-luzern.ch/_thumbnails_/938_1_02_coffeeshop01.jpg) no-repeat center center;
   background-size: cover;
@@ -126,9 +128,8 @@ h2 {
   width: 1024px;
   text-align: center;
   text-decoration: none;
-display:none;
+  display:none;
 }
-
 
 .topnav {
     width:100%;
@@ -140,7 +141,6 @@ display:none;
   margin: 0px;
   padding: 20px 15px 20px 10px;
   text-decoration: none;
-
 }
 
 .nav li {
@@ -220,15 +220,14 @@ background-color: #444;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  top: 580px;
+  top: 610px;
   left: 440px;
   
 }
 
 .supporting {
-  padding-top: 80px;
-  padding-bottom: 80px;
-
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .supporting .col {
@@ -260,20 +259,6 @@ background-color: #444;
   clear: both;
 }
 
-.footer {
-position: fixed;
-     bottom: 0;
-     right: 0;
-}
-
-.footer p {
- // font-family: 'Raleway', sans-serif;
-  //text-transform: uppercase;
-  //font-size: 11px;
-  //padding: 30px 0 10px 10px;
- //position:relative;
-}
-
 .mapcontainter {
     display: block;
     float: left;
@@ -283,12 +268,12 @@ position: fixed;
 }
 
 #map {  
-    position:absolute;
+    position:relative;
     left:40px;
     width: 600px;
-    height: 400px;
+    height: 350px;
     background-color: grey;
-	top:100px;
+	top:20px;
 }
 
 .enq a {
@@ -310,7 +295,7 @@ position: fixed;
 }
 
 textarea {
-    height:50%;
+    height:40%;
     width:80%;
     resize: none;
 }
@@ -360,4 +345,22 @@ textarea {
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    bottom: 0;
+    right: 0;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 30px 0 10px 10px;
+    position:relative;
+    color: #FFF;
 }
