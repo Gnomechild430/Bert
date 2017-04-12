@@ -50,6 +50,80 @@ function initMap() {
               });
              }
 
+
+//show arrow on lightbox
+$(function () {
+
+$('#clicktomenu').on('click', function () {
+$('.header').hide();
+$('#arrow').show();
+});
+
+});
+
+//hide the arrow
+
+
+$(function () {
+
+$('#img1').on('click', function() {
+
+$('#arrow').hide();
+});
+});
+
+
+$(function () {
+
+$('#img2').on('click', function() {
+
+$('#arrow').hide();
+$('#arrow2').hide();
+});
+});
+
+
+
+$(function () {
+
+$('#arrow').on('click', function() {
+
+$('#arrow').hide();
+$('#arrow2').show();
+
+});
+});
+
+
+$(function () {
+
+$('#arrow2').on('click', function() {
+
+$('#arrow2').hide();
+$('#arrow').show();
+
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Lightbox
 /*! jQuery v1.10.1 | (c) 2005, 2013 jQuery Foundation, Inc. | jquery.org/license
 //@ sourceMappingURL=jquery-1.10.1.min.map
