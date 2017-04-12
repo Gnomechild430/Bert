@@ -18,8 +18,7 @@ h2 {
 .abouttext {
     float:left;
     width: 50%;
-    height: 60%;
-    margin-left: 20px; 
+    height: 60%; 
     clear: right;
     display: block;
 }
@@ -27,8 +26,13 @@ h2 {
 .aboutimage {
     display: block;
     float: right;
-    width: 42%;
+    width: 350px;
+    height: 450px;
     margin: 10 20 0 0;
+    border: 5px solid #3498DB;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .placeholder img {
@@ -42,7 +46,14 @@ h2 {
   top:1540px;
   height:660px;
   width:1024px;
+}
 
+.contentbox {
+    width: 90%;
+    height 600px;
+    position: relative;
+    display:block;
+    padding-left: 51.2px;
 }
 
 .cateringcontainer {
@@ -69,7 +80,7 @@ h2 {
 .contactcontainer {
     position:absolute;
     top:3520px;
-    height:660px;
+    height:710px;
     width:1024px;
 }
 
@@ -125,7 +136,7 @@ h2 {
 .header {
   background-color:#3498DB;
   position:fixed;
-  z-index:2;
+  z-index:1000;
   width: 1024px;
   text-align: center;
   text-decoration: none;
@@ -190,10 +201,16 @@ background-color: #444;
   padding: 16px 40px;
   text-decoration: none;
   text-transform: uppercase;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .btn-default {
   border: 1px solid #333;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
   border-color:#3498DB;
   color: #000;
   font-family: 'Raleway', sans-serif;
@@ -204,7 +221,8 @@ background-color: #444;
   text-decoration: none;
   text-transform: uppercase;  
   display: inline-block;
-  margin-bottom: 20px;      
+  margin-bottom: 20px;    
+
 }
 
 .btn-return {
@@ -225,6 +243,9 @@ background-color: #444;
   top: 610px;
   left: 440px;
   border-color:#3498DB;
+-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;   
   
 }
 
@@ -272,11 +293,15 @@ background-color: #444;
 
 #map {  
     position:relative;
-    left:40px;
-    width: 600px;
+    left:70px;
+    width: 550px;
     height: 350px;
     background-color: grey;
 	top:20px;
+    border: 5px solid #3498DB;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .enq a {
@@ -298,7 +323,7 @@ background-color: #444;
 }
 
 textarea {
-    height:40%;
+    height:50%;
     width:80%;
     resize: none;
 }
@@ -315,16 +340,11 @@ textarea {
 	bottom: 120px;
     left: 15px;
     position: absolute;
-  
-	
 }
-
-
-
 
 .smalltext {
     font-family: 'Raleway', sans-serif;  
-font-size:22px;
+font-size:16px;
 }
 
 .headers11 {
@@ -342,6 +362,9 @@ font-size:22px;
 
 .formbuttons {
     padding-left: 15%;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .formbutton{
@@ -349,17 +372,20 @@ font-size:22px;
    width: 30%;
    margin: 100 auto;
    position: relative;
-   border: 1px solid #333;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
    color: #000;
    font-family: 'Raleway', sans-serif;
    font-weight: 600;
    font-size: 10px;
    letter-spacing: 1.3px;
    padding: 10px 20px;
+   margin-top: 15px;
    text-decoration: none;
    text-transform: uppercase;
    text-align: center;
-   border-color;#3498DB;
+   border-color:#3498DB;
 }
 
 .footer {
@@ -379,10 +405,6 @@ font-size:22px;
     position:relative;
     color: #FFF;
 }
-
-
-
-
 
 .lightbox {
 
