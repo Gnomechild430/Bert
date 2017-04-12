@@ -331,14 +331,16 @@ textarea {
 #TA_socialButtonIcon586 {
 
     position: absolute;
-	left:79px;
-	bottom:120px;
+	left:0px;
+	bottom:0px;
+	top:400px;
 }
 
 #fblogo {
 	
-	bottom: 120px;
-    left: 15px;
+	bottom:0px;
+	top:400px;
+    left: 70px;
     position: absolute;
 }
 
@@ -389,7 +391,7 @@ font-size:16px;
 }
 
 .footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 50px;
     background-color: #3498DB;
@@ -404,6 +406,7 @@ font-size:16px;
     padding: 30px 0 10px 10px;
     position:relative;
     color: #FFF;
+	bottom: 10px;
 }
 
 .lightbox {
@@ -432,6 +435,49 @@ font-size:16px;
 	outline: none;
 	display: block;
 }
+
+
+
+
+#arrow {
+display:none;
+	z-index: 1000;
+      position:fixed;
+      left:1500px;
+	
+	top: 450px;
+     
+}
+
+
+#arrow:hover {
+
+background-color:white;
+
+}
+
+
+
+
+#arrow2 {
+	display:none;
+	z-index: 1000;
+      position:fixed;
+      left:300px;
+	
+	top: 450px;
+     
+}
+
+
+#arrow2:hover {
+
+background-color:white;
+
+}
+
+
+
 
 
 
