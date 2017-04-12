@@ -439,34 +439,35 @@ font-size:16px;
 
 
 
-#arrow {
-display:none;
+#arrowright {
+
 	z-index: 1000;
-      position:fixed;
-      left:1500px;
-	
-	top: 450px;
+    position:fixed;
+	left: 1000px;
+	top:250px;
      
 }
 
+.arrows {
+	display:none;
+	
+}
+
+
+
+#arrowleft {
+
+	z-index: 1000;
+      position:fixed;
+      left:265px;
+	top: 250px;
+     
+}
 
 #arrow:hover {
 
 background-color:white;
 
-}
-
-
-
-
-#arrow2 {
-	display:none;
-	z-index: 1000;
-      position:fixed;
-      left:300px;
-	
-	top: 450px;
-     
 }
 
 
