@@ -1,268 +1,648 @@
-<!DOCTYPE html >
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600"  rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+html, body {
+   position: relative;
+   width: 1024px;
+   margin: 0 auto;
+   background:url ("http://flexrake.com/skin/frontend/default/flexrake_bak10May2010/images/body-background.gif");
 
+}
 
-    <title>Tasty Pantry</title>
-  </head>
-
-
-<body onload = "SetOpacZero()">
-  <div class="header">
-    <div  class="topnav">
-      <ul class="nav">
-        <li><a href="#s1" >About</a></li>
-        <li><a href="#s2">Menu</a></li>
-        <li><a href="#s3">Catering</a></li>
-        <li><a href="#s4">Find Us</a></li>
-        <li><a href="#s5">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div id = "slider" class="bigpicture"> 
-  <figure>
-  <img src="http://images.huffingtonpost.com/2014-03-24-1198029.jpg" height="450" width ="100%">
-    <img src="http://www.duganssandwichshop.com/wp-content/uploads/2015/06/ordering-counter.jpg" height="450" width ="100%">
-	  <img src="http://images.huffingtonpost.com/2014-03-24-1198029.jpg" height="450" width ="100%">
-	    <img src="http://www.duganssandwichshop.com/wp-content/uploads/2015/06/ordering-counter.jpg" height="450" width ="100%">
-		  <img src="http://images.huffingtonpost.com/2014-03-24-1198029.jpg" height="450" width ="100%">
-  
-  
-  
-  </figure>
-    <div class="container">  
-      <div class="main">
-        <h1> The Tasty Pantry</h1>
-      </div>
-    </div>
-  </div>
-    
-  <div class="supporting">
-    <div class="container">
-
-      <div class="col">
-        <img src="images/pencil.png" alt="Pencil">
-        <h2>About Us</h2>
-          <p>Learn more about us.</p>
-        <a class="btn-default" href="#s1">Learn more</a>
-      </div>
-
-      <div class="col">
-        <img src="images/menuimg.gif" alt="Menu">
-        <h2>Menu</h2>
-        <p>Here's what we have to offer.</p>
-        <a class="btn-default" href="#s2">Learn more</a>
-      </div>
-        
-      <div class="col">
-        <img src="images/catering.gif" alt="Catering">
-        <h2>Catering</h2>
-       <p>We provide catering services too.</p>
-        <a class="btn-default" href="#s3">Learn more</a>
-      </div> 
-        
-      <div class="col">
-        <img src="images/whereimg.png" alt="Pin">
-        <h2>Where</h2>
-          <p>Where you can find us.</p>
-        <a class="btn-default" href="#s4">Learn more</a>
-      </div>
-
-      <div class="col">
-        <img src="images/phoneimg.gif" alt="Phone">
-        <h2>Contact</h2>
-          <p>Any queries? Get in touch.</p>
-        <a class="btn-default" href = "#s5">Learn more</a>
-      </div>
-        
-
-    </div>
-    <div class="clearfix"></div>
-  </div>
-
-    <div class="separator">
-    <img src="images/separator.png">
-    </div>
-
-   <div id="s1" class="aboutcontainer">
-     <h1 class = "headers11"> About Us </h1>
-      <div class="contentbox">
-       <div id="fb-root"></div>
-          <script type="text/javascript">(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
-          fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-          </script>
-          <div class="fb-like" data-href="https://www.facebook.com/search/437531756287477/local_search?surface=sist" data-width="30" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-
-       <div class="abouttext">  
-          <p class ="smalltext"> 
-           Established in 2005, in the county town of Stafford.
-		  <br>
-		  <br>
-          Sarah & her team have many years experience within the
-          hospitality industry. Please don't hesitate to contact us to
-          discuss your menu! </p>
-          <div id ="fblogo">
-	   <a href="https://www.facebook.com/pages/Tasty-Pantry/437531756287477?fref=ts"> <img src="images/facebook-icon.png"   width="64" height="64">  </a>
-	   </div>
-       <div id="TA_socialButtonIcon586" class="TA_socialButtonIcon"><ul  id="CtAUCVXhj" class="TA_links 7kevghu"><li id="Udz57FM5"  class="Xv6IkSgA5SJ"><a target="_blank"  href="https://www.tripadvisor.com/Tourism-g186375-Staffordshire_England-Vacations.html"><img  src="https://www.tripadvisor.com/img/cdsi/img2/branding/socialWidget/64x64_green-21690-2.png"/></a></li></ul></div><script  src="https://www.jscache.com/wejs?wtype=socialButtonIcon&amp;uniq=586&amp;locationId=186375&amp;color=green&amp;size=lg&amp;lang=en_US&amp;display_version=2"></script> 
-       </div>
-       <div class="aboutimage">
-           <img src="images/shop.jpg">
-       </div>
-    </div>
-        <a class="btn-return" href="#slider">Back to top.</a> 
-       </div>
-    
-  <div id="s2" class="menucontainer"> 
-    <div class="separator">
-    <img src="images/separator.png">
-    </div>  
-    <div class="contentbox">
-      <h1 class = "headers11">What's in Store</h1>
-   <p class ="smalltext"> For that special occasion, private party, event or corporate
-meeting. The Tasty Pantry can cater with delicious food
-which is created, delivered & served by our professional
-team on the same day, to your own individual requirements
-using local suppliers & exceptional quality produce.  </p>
-<h1 class = "menuheading" > Click below to read our menu! </h1>
-<h2 class = "menuheading" > Or <a  id "dlmenu" href="images/pantrymenu.pdf" download="TastyPantryMenu2017" > click here </a> to download the menu as a PDF </h2>
-<a href="#img1" id = "clicktomenu">  <img src="images/minimen.jpg" Click here to see our menu! </a>
-
-
-<a href="#_" id="cross">
-<img src="images/closeicon.png"   height="50" width="50"    >
-</a>
-
-<a href="#_" class="lightbox" id="img1">
-  <img src="images/menu1.jpg">
-</a>   
-
-
-<a href="#_" class="lightbox" id="img2">
-  <img src="images/menu2.jpg">
-</a>   
-
-
-<a href="#img1" id ="arrowleft" class="arrows" >
-<img src="images/arrowleft.png"  height="50" width = "50"   > 
-</a> 
-
-
-
-<a href="#img2" id ="arrowright" class="arrows">
-<img src="images/arrowright.png"  height="50" width = "50"   > 
-</a> 
-
-
-
-
-      </div>
-   <a class="btn-return" href="#slider">Back to top.</a> 
-  </div>
-  
-  
-    
-  <div id="s3" class="cateringcontainer">
-    <div class="separator">
-    <img src="images/separator.png">
-    </div>
-    <h1 class = "headers11"> Our Catering Services</h1>
-     <div class="contentbox">
-      <p class ="smalltext"> atis blandit faucibus. Fusce mattis orci ante, in rutrum risus cursus quis. Aliquam lacinia, elit sit amet mollis pretium, metus nulla convallis mauris, at pellentesque neque mi quis tellus. Donec at vulputate quam, a tempus augue. Fusce id porta velit. Integer fringilla sapien consectetur eros efficitur euismod. Sed sed mi faucibus, volutpat purus vel, tincidunt felis. Aenean felis sapien, vehicula dictum risus a, feugiat malesuada mi. Morbi malesuada lectus lorem, quis dictum neque ultri </p>
-      <h2 class = "headers11"> Donec at vulputate quam, a tempus augue. Fusce id porta velit. Integer </h2> 
-      <p class = "smalltext"> Pellentesque iaculis id sem ac suscipit. Mauris et maximus augue. Duis leo elit, venenatis non dui ut, cursus varius ipsum. Donec vitae cursus orci, in volutpat mi. Fusce nec tempus eros. Aenean dapibus id mi sed sodales. Phasellus sed enim ac enim elementum mattis. Nunc sit amet condimentum diam. Donec mollis eu dui non dignissim. Pellentesque dui eros, imperdiet a tempus id, elementum id justo. Aenean facilisis mauris sit amet enim sollicitudin venenatis.
-      <h1 class = "headers11"> t enim. Donec condimentum metus eu magna rhonc   </h1>	
-      </div>
-   <a class="btn-return" href="#slider">Back to top.</a> 
-  </div>
-  
-  <div id="s4" class="wherecontainer"> 
-  <div class="separator">
-    <img src="images/separator.png">
-    </div>  
-  <a class="btn-return" href="#slider">Back to top.</a>
-    <div class="placeholder">
-       <h1 class ="headers11"> How to Find us </h1>
-       <div class="address">
-         <h2>Address:</h2>
-        <p class="smalltext">Staffordshire Technology Park, <br> 
-         Wolseley Court,<br>
-         Stafford <br>
-         ST18 0ER  <br>
-         <br>
-         Phone: 01785 224747
-           </p>
-        </div> 
-        
-    <div class="mapcontainer">
-        <div id="map" onLoad="initMap()">
-           
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-E8O4IHRR6AMhdFc7nGhjfAkQWaLDZpE&callback=initMap"
-  type="text/javascript"></script>
-	</div>
-    </div>
-    </div>
- </div>
-  
-    <div id="s5" class="contactcontainer">
-        <div class="separator">
    
-    <img src="images/separator.png">
-    </div>
-        <h1 class ="headers11"> Get in Touch </h1>
-        <div class="contentbox">
-        <div class="contacttext">
-          <p class="smalltext">
-          If you have business enquiries or simply want to know more about us, please feel free to fill in the form on the right and we will get back to you as soon as possible.
-          </p>
-          <p class="smalltext">
-          Alternatively, you can contact us by phone, email or through our Facebook page:
-          </p>
-          <p class="smalltext"> Telephone - 01785 22474
-          </p>
-      <p class="smalltext"> Email -
-      </p> 
-      <p class="smalltext">Facebook -
-      </p>
-      <p class="smalltext">You can also, of course, visit us in the shop!</p>
-      <p class="smalltext">Thank you for your interest in Tasty Pantry.</p>      
-      </div>
-      <div class="form">
-        <form class="enq" action="https://formspree.io/adamtate94@gmail.com" method="post">
-    <a> Your name </a> <br>
-    <input type="text" name="name" size ="35" class="formbox"><br>
-    <br><a> Your e-mail </a> <br>
-    <input type="text" name="_replyto" size ="35" class="formbox"><br>
-    <br><a> Message </a> <br>
-    <textarea name="message" size ="100"></textarea><br>
-    <div class="formbuttons">
-            <input type="submit" value="Send" class="formbutton">
-    <input type="reset" value="Clear" class="formbutton">
-</form>
-      </div>
-    </div>
-        </div>
-<div class="footer">
-    <div class="container">
-      <p>&copy; GATE 2017</p>
-    </div>
-    </div>
-	<a class="btn-return" href="#slider">Back to top.</a>
-    </div>
+   
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutcontainer {
+    position: absolute;
+    top: 870px;
+    height: 660px;
+    width: 1024px;
+	z-index: 500;
+	background-color:white;
+
+}
+
+.abouttext {
+    float:left;
+    width: 50%;
+    height: 60%; 
+    clear: right;
+    display: block;
+}
+
+.aboutimage {
+    display: block;
+    float: right;
+    width: 350px;
+    height: 450px;
+    margin: 10 20 0 0;
+    border: 3px solid #3498DB;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+.placeholder img {
+    width: 1024px;
+    height: 500px;
+    position:absolute;
+	background-color:white;
+}
+
+.menucontainer {
+  position:absolute;
+  top:1540px;
+  height:660px;
+  width:1024px;
+}
+
+.contentbox {
+    width: 90%;
+    height 600px;
+    position: relative;
+    display:block;
+    padding-left: 51.2px;
+}
+
+.cateringcontainer {
+    position: absolute;
+    top: 2200px;
+    height:660px;
+    width:1024px;
+}
+
+.wherecontainer {
+    position:absolute;
+    top:2860px;
+    height:660px;
+    width:1024px;
+}
+
+.address {
+    position: relative;
+    float: right;
+    display: block;
+    margin-right: 100px;
+}
+
+.contactcontainer {
+    position:absolute;
+    top:3520px;
+    height:710px;
+    width:1024px;
+}
+
+.contacthead {
+    height: 50px;
+    width: 100%;
+}
+
+.contacttext {
+    float:left;
+    width: 50%;
+    height: 60%;
+    margin-left: 20px; 
+    clear: right;
+    display: block;
+}
+
+.enq{
+    display: block;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+}
+
+.topnav {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+  width: 100%;
+}
+
+.separator {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-left:15px;
+}
+
+.bigpicture  {
+  /* background: url(http://www.astoria-luzern.ch/_thumbnails_/938_1_02_coffeeshop01.jpg) no-repeat center center; */
+   /*  background: url(http://images.huffingtonpost.com/2014-03-24-1198029.jpg); */
+  background-size: cover;
+  height: 450px;
+   -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+
+.bigpicture img{ 
+
+background-size: cover;
+
+}
+
+
+
+
+
+.header {
+  background-color:#3498DB;
+  position:fixed;
+  z-index:1000;
+  width: 1024px;
+  text-align: center;
+  text-decoration: none;
+  display:none;
+}
+
+.topnav {
+    width:100%;
+}
+
+.nav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px 15px 20px 10px;
+  text-decoration: none;
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.nav li a {
+    color: #FFF;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav a:hover {
+opacity:0.5;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.btn-default {
+  border: 1px solid #333;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border-color:#3498DB;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;    
+
+}
+
+.btn-return {
+  display: block;
+  width: 10%;
+  margin: 0 auto;
+  position: absolute;
+  border: 1px solid #333;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  top: 610px;
+  left: 440px;
+  border-color:#3498DB;
+-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;   
   
-  </div>
-</body>
-</html>
+}
+
+.supporting {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.supporting .col {
+  float: left;
+  width: 20%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.mapcontainter {
+    display: block;
+    float: left;
+    position: relative;
+    width: 500px;
+    clear: right;
+}
+
+#map {  
+    position:relative;
+    left:70px;
+    width: 550px;
+    height: 350px;
+    background-color: grey;
+	top:20px;
+    border: 5px solid #3498DB;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.enq a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.wherecontainer h3 {
+	position:absolute;
+	left:40px;
+    font-family: 'Raleway', sans-serif;  
+}
+
+.wherecontainer address {
+    font-family: 'Raleway', sans-serif;  
+    left:500px;
+    position:relative;
+    top: 100px;
+    left: 675px;
+}
+
+textarea {
+    height:50%;
+    width:80%;
+    resize: none;
+}
+
+#TA_socialButtonIcon586 {
+
+    position: absolute;
+	left:0px;
+	bottom:0px;
+	top:400px;
+}
+
+#fblogo {
+	
+	bottom:0px;
+	top:400px;
+    left: 70px;
+    position: absolute;
+}
+
+.smalltext {
+    font-family: 'Raleway', sans-serif;  
+font-size:16px;
+}
+
+.headers11 {
+    margin: 20 auto;
+    font-family: 'Raleway', sans-serif; 
+    text-align:center;
+}
+
+.form {
+    height: 80%;
+}
+.formbox {
+    width: 80%;
+}
+
+.formbuttons {
+    padding-left: 15%;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.formbutton{
+   display: inline-block;
+   width: 30%;
+   margin: 100 auto;
+   position: relative;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   color: #000;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 10px;
+   letter-spacing: 1.3px;
+   padding: 10px 20px;
+   margin-top: 15px;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   border-color:#3498DB;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #3498DB;
+    bottom: 0;
+    right: 0;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 30px 0 10px 10px;
+    position:relative;
+    color: #FFF;
+	bottom: 10px;
+}
+
+.lightbox {
+
+	display: none;
+
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 5%;
+	height:85%;
+	width:60%;
+}
+
+.lightbox:target {
+
+	outline: none;
+	display: block;
+}
+
+
+
+
+	 
+	 #cross {
+	z-index:1000;
+	display:none;
+	position:fixed;
+	left:80%;
+	top:2.8%;
+	
+}
+
+
+
+
+
+.arrows:hover {
+opacity:0.5;
+	
+}
+
+#cross:hover{
+	
+	opacity:0.5;
+	
+}
+
+
+.arrows {
+	display:none;
+	top:40%;
+	
+	
+}
+
+
+
+#arrowright {
+
+	z-index: 1000;
+    position:fixed;
+    right :10%;
+	
+     
+}
+	 
+
+
+#arrowleft {
+
+	z-index: 1000;
+      position:fixed;
+     	left:10%;
+	
+     
+}
+
+#arrow:hover {
+
+background-color:white;
+
+}
+
+
+#arrow2:hover {
+
+background-color:white;
+
+}
+
+
+    #clicktomenu {
+		position:absolute;
+     left:50px;
+	 top:165px;
+	
+    }
+	
+	#clicktomenu:hover {
+
+        z-index: 999; 
+        -o-transform: scale(1.03,1.03); 
+        -ms-transform: scale(1.03,1.03); 
+        -moz-transform: scale(1.03,1.03);
+        -webkit-transform: scale(1.03,1.03); 
+        transform: scale(1.03,1.03);
+	}
+	
+	
+	@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+	animation-timing-function: linear;
+}
+
+
+.menucontainer h1 {
+	position:relative;
+	font-size:20px;
+	  font-family: 'Raleway', sans-serif; 
+	  top:10px;
+	
+
+	
+	
+	
+}
+
+
+.menucontainer h2 {
+		position:relative;
+	font-size:20px;
+	  font-family: 'Raleway', sans-serif; 
+	  top:250px;
+	
+}
+
+.menuheading a:hover {
+	
+	
+opacity:0.8;
+	
+}
+
+
+
+
+
