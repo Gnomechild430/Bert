@@ -43,11 +43,28 @@ function initMap() {
 $(function () {
 
 $('#clicktomenu').on('click', function () {
-
+$('#cross').show();
 $('#arrowright').show();
 });
 
 });
+
+
+$(function () {
+
+$('#cross').on('click', function () {
+$('#cross').hide();
+$('#arrowleft').hide();
+$('#arrowright').hide();
+
+
+});
+
+});
+
+
+
+
 
 
 //hide right arrow when click off image
@@ -55,15 +72,19 @@ $(function () {
 
 $('#img1').on('click', function() {
 
+$('#cross').hide();
 $('#arrowright').hide();
 });
 });
 
 
+
+
+
 $(function () {
 
 $('#img2').on('click', function() {
-
+$('#cross').hide();
 $('#arrowright').hide();
 $('#arrowleft').hide();
 });
